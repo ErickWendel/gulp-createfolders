@@ -5,15 +5,15 @@
 For creation of files default for especific module. <br />
 Use with Ionic Framework app or AngularJS. <br/ >
     
-    
-    www/
-    └── app
-        └── products
-            ├── products-controller.js
-            ├── products-service.js
-            ├── products-view.html
-            └── products.css
-
+```{r, engine='bash', count_lines}    
+www/
+└── app
+└── products
+    ├── products-controller.js
+    ├── products-service.js
+    ├── products-view.html
+    └── products.css
+```
 ##Usage
 ```{r, engine='bash', count_lines}
 npm install -g gulp && npm install
