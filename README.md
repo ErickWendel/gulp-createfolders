@@ -13,12 +13,23 @@ Use with Ionic Framework app or AngularJS. <br/ >
             ├── products-service.js
             ├── products-view.html
             └── products.css
-    
+
 ##Usage
 
 > npm install -g gulp && npm install <br />
 > gulp create-folders --n NameOfModule
 
+```{r, engine='bash', count_lines}
+[13:58:35] Using gulpfile ~/Desktop/gulp-create-folders/gulpfile.js
+[13:58:35] Starting 'create-folders'...
+www/app/products/
+creating www/app/products/products-controller.js
+creating www/app/products/products-service.js
+creating www/app/products/products-view.html
+creating www/app/products/products.css
+[13:58:35] Finished 'create-folders' after 946 μs
+
+```
 ##Output <br />
 ``` javascript   
 // products-controller.js 
