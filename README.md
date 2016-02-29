@@ -4,7 +4,7 @@ Description:
     For creation of files default for especific module, in estructure:
     use --n to inform module name in app
     
-    ```
+    
     www/
     └── app
         └── products
@@ -12,21 +12,20 @@ Description:
             ├── products-service.js
             ├── products-view.html
             └── products.css
-    ```
-<h1>Usage</h1>
+    
+#Usage
 
-gulp create-folders --n NameOfModule
+> gulp create-folders --n NameOfModule
 
 Output <br />
-    - products-controller.js <br />
-    
-        ```javascript
-            (function(angular) { 
-                var app = angular.module("controllers.productsController", []); 
-            
-                app.controller("ProductsCtrl", [function () { 
+``` javascript   
+// products-controller.js 
+(function(angular) { 
+    var app = angular.module("controllers.productsController", []); 
 
-                }]);
-            })(angular);
-        ```
+    app.controller("ProductsCtrl", [function () { 
+
+    }]);
+})(angular);
+```
 
