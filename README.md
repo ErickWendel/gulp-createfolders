@@ -3,7 +3,7 @@
 ##Description: <br />
 
 For creation of files default for especific module. <br />
-use --n to inform module name in app
+Use with Ionic Framework app or AngularJS. <br/ >
     
     
     www/
