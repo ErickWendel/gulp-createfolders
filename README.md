@@ -1,4 +1,4 @@
-#gulp-create Folders
+#gulp-create-folders
 
 ##Description: <br />
 
